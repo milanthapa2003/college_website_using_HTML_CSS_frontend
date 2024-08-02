@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: url(/assets/cms_login_bg.jpg);
+    background-size: cover;
+    box-shadow: 4px 4px 4px rgb(0,0,0,0.5);
+
+}
+
+
+.container-item{
+    width: 500px;
+ 
+     background-color: white;
+   padding: 40px;
+   background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+
+}
+
+.container-item h1{
+    text-align: center;
+    font-size: 25px;
+}
+.first-div{
+    margin-bottom: 16px;
+}
+
+.first-div input[type="text"],input[type="password"]{
+    padding: 10px;
+    margin: 10px 0px;
+    width: 100%;
+    border: 1px solid #ccc;
+
+    
+}
+
+
+
+
+
+.second-div p{
+    display: inline;
+    margin-left: 120px;
+   
+}
+.second-div p a{
+    text-decoration: none;
+    color: black;
+}
+
+.second-div p:hover{
+    text-decoration: underline;
+    
+}
+
+
+input.largerCheckbox {
+    width: 20px;
+    height: 20px;
+ 
+}
+
+
+button{
+    width: 100%;
+    background-color: rgb(1, 169, 172);
+    margin: 30px 0px;
+    text-align: center;
+    padding: 10px 12px;
+  
+    border: none;
+    transition: all 0.15s ease-in-out;
+}
+
+button:hover{
+    background-color:rgb(1, 219, 223);
+
+}
+button a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+hr{
+    color: #ccc;
+}

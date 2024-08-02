@@ -1,0 +1,40 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(0,0,0,0.8);
+}
+
+.search-section{
+    width: 600px;
+    height: 50px;
+   
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+     
+  
+}
+
+.search-section input{
+    width: 100%;
+   padding: 20px;
+   border-bottom: 5px solid black;
+
+   border-radius: 30px;
+   box-shadow: 15px 15px 40px rgba(0,0,0,0.5);
+
+}
+
+input[type="text"]{
+    font-size: 20px;
+  
+}
+
